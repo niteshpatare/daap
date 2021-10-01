@@ -1,0 +1,30 @@
+body{ background-color: rgb(226, 238, 238);}
+
+.border-gray-300{border: solid 1px;}
+/*todo:grid container later convert to scss*/
+.gridc {
+    min-width: 580px;
+    display:grid;
+    grid-template-columns: auto 1fr 2fr;
+    grid-template-rows: repeat(1, minmax(0, 1fr));
+    grid-template-areas: "gridctop gridctop gridctop" "gridcaside gridcmiddle gridcright" "gridcfooter gridcfooter gridcfooter";
+    grid-gap: 20px;
+}
+.gridc__top {
+    grid-area: gridctop;
+}
+.gridc__aside {
+    grid-area: gridcaside; color:var(--tw-border-opacity);
+}
+.gridc__middle {
+    grid-area: gridcmiddle;
+}
+.gridc__right {
+    grid-area: gridcright;
+}
+.gridc__footer {
+    grid-area: gridcfooter;
+}
+
+.gridc__aside-stretch { width:1fr;}
+.gridc__aside-shrink {max-width:160px;overflow:hidden;}
