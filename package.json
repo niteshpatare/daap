@@ -8,6 +8,10 @@
   "dependencies": {
     "@headlessui/react": "^1.4.1",
     "@heroicons/react": "^1.0.4",
+    "gatsby-cli": "^2.12.36",
+    "gatsby-dev-cli": "^3.14.0",
+    "joi": "^17.4.2",
+    "netlify-identity-widget": "^1.9.2",
     "next": "latest",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",

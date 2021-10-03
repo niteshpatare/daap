@@ -21,15 +21,15 @@ export default function Home() {
       <aside className="gridc__aside gridc__aside-shrink"> {/* gridc__aside-stretch */}
         <Aside></Aside> 
        </aside>
-      <section className="gridc__middle">
+      <section className="gridc__right">
         <main>          
           <Bio/>
-          {/*if edit true <bioform></bioform>*/}
+          {/*if edit true <bioform></bioform> @netlify/plugin-nextjs*/}
         </main>
       </section>
-      <section className="gridc__right">
+      <section className="gridc__middle">
         <Playarea></Playarea>   
-        <Playareacard></Playareacard>
+        
       </section>
       <footer className="gridc__footer">
             <a

@@ -135,9 +135,9 @@ export default function Playarea() {
                         <div className="text-sm text-gray-900">{person.vaccinated}</div> 
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                        {person.accessory} 
-                        <div>/</div>
-                        {person.toys}</td> 
+                            <div>{person.accessory}</div>
+                            <div>{person.toys}</div>
+                        </td>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                         <a href="#" className="text-indigo-600 hover:text-indigo-900">
                             Enquire 

@@ -5,7 +5,7 @@ body{ background-color: rgb(226, 238, 238);}
 .gridc {
     min-width: 580px;
     display:grid;
-    grid-template-columns: auto 1fr 2fr;
+    grid-template-columns: auto 2fr 1fr;
     grid-template-rows: repeat(1, minmax(0, 1fr));
     grid-template-areas: "gridctop gridctop gridctop" "gridcaside gridcmiddle gridcright" "gridcfooter gridcfooter gridcfooter";
     grid-gap: 20px;
