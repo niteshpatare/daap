@@ -1,5 +1,5 @@
-import { Fragment, useEffect, useState } from 'react'
-import netlifyAuth from '../netlifyAuth.js'
+import { Fragment, useEffect, useState } from 'react';
+import netlifyAuth from '../../netlifyAuth.js';
 
 export default function Login(){
     let [loggedIn, setLoggedIn] = useState(netlifyAuth.isAuthenticated)

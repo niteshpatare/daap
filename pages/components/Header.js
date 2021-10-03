@@ -11,7 +11,7 @@ import {
   PencilIcon,
 } from '@heroicons/react/solid';
 import { Menu, Transition } from '@headlessui/react';
-import Login from '@Component/Login';
+import Login from './Login';
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
