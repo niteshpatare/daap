@@ -28,7 +28,7 @@ export default function Login(){
 
   return(
 
-    <Fragment>
+    <Fragment><br/>
         {loggedIn ? (
             <div>
             You are logged in! {user && <>Welcome {user?.user_metadata.full_name}!</>}
